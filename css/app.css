@@ -32,6 +32,10 @@ h3 {
     font-size: 26px;
 }
 
+h2 {
+    font-size: 38px;
+}
+
 img {
     width: 100%;
 }
@@ -176,6 +180,9 @@ header {
 }
 
 /* banner section */
+.banner {
+    margin-bottom: 44px;
+}
 .banner img {
     display: block;
     width: 1300px;
@@ -195,6 +202,8 @@ header {
         display: none;
     }
 }
+
+/* presentation section */
 
 
 
