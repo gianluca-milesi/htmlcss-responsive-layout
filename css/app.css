@@ -34,6 +34,21 @@ img {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-8 {
+    width: calc(8*100%/12);
+}
+.col-4 {
+    width: calc(4*100%/12);
+}
 
 
 /* HEADER */
@@ -65,4 +80,8 @@ header{
 /* Debug */
 .hero.debug .container > *{
     border: 1px solid black;
+}
+
+.hero.debug .col-8 {
+    border: 1px solid gray;
 }
