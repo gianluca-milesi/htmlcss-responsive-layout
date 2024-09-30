@@ -9,6 +9,10 @@ html {
     font-family: "Roboto", serif;
 }
 
+body {
+    background-color: rgb(246, 245, 243);
+}
+
 ul,
 ol {
     list-style: none;
@@ -21,4 +25,24 @@ a {
 
 img {
     max-width: 100%;
+}
+
+
+
+
+
+/* HEADER */
+header{
+    width: 100%;
+}
+
+.navbar-header {
+    padding: 22px 24px;
+}
+
+.navbar-header h1 {
+    font-family: "Nerko One", cursive;
+    font-size: 44px;
+    color: rgb(255, 150, 20);
+    text-shadow: 1px 1px 1px rgba(125, 125, 125, 1);
 }
