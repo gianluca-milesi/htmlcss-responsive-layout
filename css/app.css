@@ -120,7 +120,15 @@ header {
     .hero .card .col-4 {
         width: 100%;
     }
-    
+
+    .card__description ul {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .card__description ul li {
+        width: 33%;
+      }
 }
 
 
