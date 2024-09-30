@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 html {
@@ -24,7 +25,7 @@ a {
 }
 
 h1 {
-    font-size: 44px;
+    font-size: 60px;
 }
 
 img {
@@ -63,10 +64,12 @@ img {
 /* HEADER */
 header {
     width: 100%;
+    background-color: white;
+    margin-bottom: 60px;
 }
 
 .navbar-header {
-    padding: 22px 24px;
+    padding: 20px 24px;
 }
 
 .navbar-header h1 {
@@ -81,6 +84,7 @@ header {
         text-align: center;
     }
 }
+
 
 /* MAIN */
 .hero__title {
@@ -104,6 +108,25 @@ header {
 
 .card__description ul li {
     line-height: 34px;
+}
+
+.navbar-hero {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .hero__link{
+    display: flex;
+    justify-content: center;
+} */
+
+.hero__link p {
+    background-color: white;
+    padding: 12px 60px;
+    border-radius: 999px;
+    box-shadow: 0 2px 5px rgba(125, 125, 125, 0.3);
 }
 
 
