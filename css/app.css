@@ -132,11 +132,16 @@ header {
 }
 
 
-
-
-
 /* contact-links */
-.hero__link p {
+.navbar-links {
+    padding: 32px 0;
+}
+.navbar-links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links ul li {
     background-color: white;
     padding: 12px 60px;
     border-radius: 999px;
@@ -174,6 +179,20 @@ header {
     padding: 0 52px;
 }
 
+/* icon colors */
+.color-blue {
+    color: rgb(26, 119, 243);
+}
+.color-azure {
+    color: rgb(0, 158, 255);
+}
+.color-pink {
+    color: rgb(223, 76, 131);
+}
+
+.color-red {
+    color: rgb(230, 34, 34);
+}
 
 /* DEBUG */
 .hero.debug .container>* {
