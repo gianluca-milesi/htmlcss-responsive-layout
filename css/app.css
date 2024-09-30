@@ -35,7 +35,7 @@ img {
 
 /* LAYOUT */
 .container {
-    max-width: 1352px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@ header {
 }
 
 .navbar-header {
-    padding: 20px 24px;
+    padding: 10px 24px;
 }
 
 .navbar-header h1 {
@@ -87,9 +87,9 @@ header {
 
 
 /* MAIN */
+/* hero */
 .hero__title {
-    margin-bottom: 26px;
-    line-height: 42px;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -110,18 +110,8 @@ header {
     line-height: 34px;
 }
 
-.navbar-hero {
-    padding: 35px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-/* .hero__link{
-    display: flex;
-    justify-content: center;
-} */
-
+/* contact-links */
 .hero__link p {
     background-color: white;
     padding: 12px 60px;
@@ -154,6 +144,10 @@ header {
 
 .block {
     display: block;
+}
+
+.padding-52x {
+    padding: 0 52px;
 }
 
 
