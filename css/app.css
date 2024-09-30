@@ -180,6 +180,7 @@ footer {
 
 .footer__links {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     text-decoration: underline;
 }
@@ -247,6 +248,15 @@ footer {
     .banner img {
         display: none;
     }
+
+    /* footer */
+    .navbar-footer {
+        flex-direction: column;
+    }
+    .footer__informations {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
 /* Smartphone */
@@ -280,5 +290,14 @@ footer {
         float: none;
         margin: 0 auto 10px auto;
         padding: 0;
+    }
+
+    /* footer */
+    .footer__links {
+        justify-content: space-between;
+    }
+    .footer__links li:last-child {
+        width: 100%;
+        text-align: center;
     }
 }
