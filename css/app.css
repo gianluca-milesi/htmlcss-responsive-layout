@@ -46,3 +46,10 @@ header{
     color: rgb(255, 150, 20);
     text-shadow: 1px 1px 1px rgba(125, 125, 125, 1);
 }
+
+/* Smartphone */
+@media (max-width: 767.99px) {
+    .navbar-header h1 {
+        text-align: center;
+    }
+}
