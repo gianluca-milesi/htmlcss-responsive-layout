@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 44px;
+}
+
 img {
     width: 100%;
 }
@@ -46,13 +50,18 @@ img {
 .col-8 {
     width: calc(8*100%/12);
 }
+
 .col-4 {
     width: calc(4*100%/12);
 }
 
+.col-20 {
+    width: 20%;
+}
+
 
 /* HEADER */
-header{
+header {
     width: 100%;
 }
 
@@ -62,7 +71,6 @@ header{
 
 .navbar-header h1 {
     font-family: "Nerko One", cursive;
-    font-size: 44px;
     color: rgb(255, 150, 20);
     text-shadow: 1px 1px 1px rgba(125, 125, 125, 1);
 }
@@ -74,11 +82,35 @@ header{
     }
 }
 
+/* MAIN */
 
 
 
-/* Debug */
-.hero.debug .container > *{
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UTILITIES */
+.color-gray {
+    color: rgb(165, 154, 153);
+}
+
+.color-purple {
+    color: rgb(78, 57, 105);
+}
+
+
+/* DEBUG */
+.hero.debug .container>* {
     border: 1px solid black;
 }
 
