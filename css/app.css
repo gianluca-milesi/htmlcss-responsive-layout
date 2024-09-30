@@ -131,6 +131,15 @@ header {
       }
 }
 
+/* Smartphone */
+@media (max-width: 767.99px) {
+    .card__description ul {
+        display: block;
+    }
+    .card__description ul li {
+        width: 100%;
+      }
+}
 
 /* contact-links */
 .navbar-links {
@@ -139,6 +148,7 @@ header {
 .navbar-links ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .navbar-links ul li {
@@ -147,6 +157,8 @@ header {
     border-radius: 999px;
     box-shadow: 0 2px 5px rgba(125, 125, 125, 0.3);
 }
+
+
 
 
 
