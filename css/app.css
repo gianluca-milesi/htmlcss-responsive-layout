@@ -141,6 +141,10 @@ header {
 }
 
 /* presentation section */
+.presentation {
+    margin-bottom: 100px;
+}
+
 .presentation h2::after {
     content: "";
     border: 1px solid rgb(247, 151, 46);
@@ -158,6 +162,26 @@ header {
 
 .presentation p {
     line-height: 38px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: rgb(124, 105, 164);
+    color: white;
+    padding: 30px;
+}
+
+.navbar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__links {
+    display: flex;
+    gap: 20px;
+    text-decoration: underline;
 }
 
 
